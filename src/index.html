@@ -10,11 +10,15 @@
 
 <body></body>
 <canvas id="cv">
-    <img src="images/spriteSheet.png" alt="" id="myImg">
+    <img src="./images/spriteSheet.png" alt="" id="myImg">
 </canvas>
+<script src="./farmer.js" type="script">
 
-<p>test</p>
-<script type="script" src=""></script>
+document.addEventListener("DOMContentLoaded", function () {
+        dw = new Farmer();
+        dw.init("01");
+    }); 
+</script>
 </body>
 
 </html>

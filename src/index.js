@@ -4,6 +4,6 @@ import './css/styles.css';
 import { Farmer } from './farmer';
 
 document.addEventListener("DOMContentLoaded", function () {
-  var char = new Farmer();
-  char.init();
+  const char = new Farmer();
+  char.bind_keyboard_events();
 });
